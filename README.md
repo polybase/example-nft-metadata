@@ -1,4 +1,4 @@
-### How to store your NFT Metadata using Polybase?
+### Dynamic NFT Metadata using Polybase?
 
 This project demonstrates how to store your NFT Metadata using Polybase. 
 
@@ -168,4 +168,4 @@ node mint.js
 # You have now successfully created your first record in the Polybase database. 
 
 You should be able to view this record from Polybase explorer. Here is the URL with which you can access your NFT Metadata. 
-https://testnet.polybase.xyz/v0/collections/pk%<publickey>%2F<App name>2%2F<Collection name>/records/6?format=nft
+https://testnet.polybase.xyz/v0/collections/pk%publickey%2Fapp_name%2Fcollection_name/records/record_id?format=nft
