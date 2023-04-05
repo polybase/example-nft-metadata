@@ -104,7 +104,7 @@ This would deploy your NFT in the Goerli test network. Make sure you recharge yo
 
 ### Creating a collection in Polybase
 
-Now login to Polybase explorer & add create a new app. You would be taken to the default boilerplate. Remove that code and paste the code given below. You can find this code in our [docs](https://polybase.xyz/docs/dynamic-nft-metadata).
+Now login to Polybase explorer & create a new app. You would be taken to the default boilerplate. Remove that code and paste the code given below. You can find this code in our [docs](https://polybase.xyz/docs/dynamic-nft-metadata).
 
 ```shell
 @public
@@ -179,6 +179,6 @@ You have now successfully created your first record in the Polybase database.
 You should be able to view this record from Polybase explorer. Here is the URL with which you can access your NFT Metadata. 
 https://testnet.polybase.xyz/v0/collections/pk%publickey%2Fapp_name%2Fcollection_name/records/record_id?format=nft
 
-Hit us up on Twitter or Discord if you have got any questions related to Polybase and we would be super happy to help! 
-[Twitter](https://twitter.com/polybase_xyz)
+Hit us up on Twitter or Discord if you have got any questions related to Polybase and we would be super happy to help! <br>
+[Twitter](https://twitter.com/polybase_xyz) <br>
 [Discord](https://discord.gg/DrXkRpCFDX)
