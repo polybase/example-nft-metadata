@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@polybase/client": "^0.3.38",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "dotenv": "^16.0.3"
+  }
+}
