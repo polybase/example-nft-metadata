@@ -2,6 +2,8 @@
 
 This project demonstrates how to store your NFT Metadata using Polybase. 
 
+# Creating ERC-721 token
+
 Open a terminal and create a directory for your creating your ERC-721 token
 
 ```shell
@@ -16,7 +18,6 @@ truffle init
 npm install @openzeppelin/contracts
 npm install dotenv
 ```
-# Creating ERC-721 token
 Under the contracts directory, add a new file "myToken.sol" and the following code in it. 
 
 ```shell
@@ -173,7 +174,7 @@ Save this code and run this code from the terminal.
 node mint.js  
 ```
 
-# You have now successfully created your first record in the Polybase database. 
+#You have now successfully created your first record in the Polybase database. 
 
 You should be able to view this record from Polybase explorer. Here is the URL with which you can access your NFT Metadata. 
 https://testnet.polybase.xyz/v0/collections/pk%publickey%2Fapp_name%2Fcollection_name/records/record_id?format=nft
