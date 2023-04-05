@@ -1,4 +1,4 @@
-### Dynamic NFT Metadata using Polybase?
+# Dynamic NFT Metadata using Polybase
 
 This project demonstrates how to store your NFT Metadata using Polybase. 
 
