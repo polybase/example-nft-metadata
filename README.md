@@ -171,7 +171,7 @@ run()
 Save this code and run this code from the terminal. 
 
 ```shell
-node mint.js  
+node mintnft.js  
 ```
 
 You have now successfully created your first record in the Polybase database. 
