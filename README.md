@@ -117,8 +117,6 @@ collection VerifiableCredentialMetadata {
   // Image could link to the location of the file on IPFS, Arweave, etc.
   image: string;
   
-  // Any additional properties you want
-  level: number;
   points: number;
 
   constructor (id: string, name: string, image: string) {
