@@ -2,7 +2,7 @@
 
 This project demonstrates how to store your NFT Metadata using Polybase. 
 
-# Creating ERC-721 token
+## Creating ERC-721 token
 
 Open a terminal and create a directory for your creating your ERC-721 token.
 
@@ -102,7 +102,7 @@ truffle migrate --network goerli
 
 This would deploy your NFT in the Goerli test network. Make sure you recharge your Goerli testnet using the Goerli faucet. 
 
-### Creating a collection in Polybase
+## Creating a collection in Polybase
 
 Now login to Polybase explorer & create a new app. You would be taken to the default boilerplate. Remove that code and paste the code given below. You can find this code in our [docs](https://polybase.xyz/docs/dynamic-nft-metadata).
 
