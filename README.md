@@ -4,13 +4,13 @@ This project demonstrates how to store your NFT Metadata using Polybase.
 
 # Creating ERC-721 token
 
-Open a terminal and create a directory for your creating your ERC-721 token
+Open a terminal and create a directory for your creating your ERC-721 token.
 
 ```shell
 mkdir nftMetadata
 cd nftMetadata
 ```
-Once you are in the nftMetadata directory, install the following dependencies
+Once you are in the nftMetadata directory, install the following dependencies.
 
 ```shell
 npm install -g truffle
@@ -93,7 +93,7 @@ module.exports = function(deployer) {
   deployer.deploy(Demo_Contract);
 };
 ```
-Now navigate to the terminal and type in the following commands
+Now navigate to the terminal and type in the following commands.
 
 ```shell
 truffle compile --all
