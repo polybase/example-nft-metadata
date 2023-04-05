@@ -82,7 +82,7 @@ API_KEY=Your api key here // without the quotes
 MNEMONIC="entire mnemonic seed phrase" // with the quotes
 ```
 
-## Compile and deploy your contract:
+## Compile and deploy your contract
 
 Before compiling your smart contract, add a new file named 1_deploy_contract.js in your migrations directory. Save the following script in that file. 
 
