@@ -4,7 +4,7 @@ This project demonstrates how to store your NFT Metadata using Polybase.
 
 ## Creating ERC-721 token
 
-Open a terminal and create a directory for your creating your ERC-721 token.
+Open a terminal and make a directory for creating your ERC-721 token.
 
 ```shell
 mkdir nftMetadata
@@ -18,7 +18,7 @@ truffle init
 npm install @openzeppelin/contracts
 npm install dotenv
 ```
-Under the contracts directory, add a new file "myToken.sol" and the following code in it. 
+Under the contracts folder, create a new file "myToken.sol" and add the following code in it. 
 
 ```shell
 //Contract based on [https://docs.openzeppelin.com/contracts/4.x/erc721](https://docs.openzeppelin.com/contracts/4.x/erc721)
@@ -84,7 +84,7 @@ MNEMONIC="entire mnemonic seed phrase" // with the quotes
 
 ## Compile and deploy your contract
 
-Before compiling your smart contract, add a new file named 1_deploy_contract.js in your migrations directory. Save the following script in that file. 
+Before compiling your smart contract, add a new file 1_deploy_contract.js in your migrations folder. Save the following script in that file. 
 
 ```shell
 const Demo_Contract = artifacts.require("polybaseNFT");
@@ -100,11 +100,11 @@ truffle compile --all
 truffle migrate --network goerli
 ```
 
-This would deploy your NFT in the Goerli test network. Make sure you recharge your Goerli testnet using the Goerli faucet. 
+This would deploy your NFT in the Goerli test network. Make sure you recharge your Goerli testnet wallet using the Goerli faucet. 
 
 ## Creating a collection in Polybase
 
-Now login to Polybase explorer & create a new app. You would be taken to the default boilerplate. Remove that code and paste the code given below. You can find this code in our [docs](https://polybase.xyz/docs/dynamic-nft-metadata).
+Now login to [Polybase explorer](https://explorer.testnet.polybase.xyz/) & create a new app. You would be taken to the default boilerplate. Remove that code and paste the code given below. You can find this code in our [docs](https://polybase.xyz/docs/dynamic-nft-metadata).
 
 ```shell
 @public
@@ -138,7 +138,7 @@ collection VerifiableCredentialMetadata {
 }
 ```
 
-Now you have saved the collection and would have to pass in 3 values to your NFT. We will see how to define those 3 values to the NFT we just deployed.
+Save the collection and would have to pass in 3 values to your NFT. We will see how to define those 3 values to the NFT we just deployed.
 
 ## Install Polybase SDK in your terminal
 
