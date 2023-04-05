@@ -6,7 +6,7 @@ Open a terminal and create a directory for your creating your ERC-721 token
 
 ```shell
 mkdir nftMetadata
-cd PolybaseNFT
+cd nftMetadata
 ```
 Once you are in the nftMetadata directory, install the following dependencies
 
@@ -16,7 +16,8 @@ truffle init
 npm install @openzeppelin/contracts
 npm install dotenv
 ```
-Create a new ERC-721 contract: You can create a new ERC-721 contract in the contracts directory of your Truffle project. Here's an example of what your ERC-721 contract could look like:
+# Creating ERC-721 token
+Under the contracts directory, add a new file "myToken.sol" and the following code in it. 
 
 ```shell
 //Contract based on [https://docs.openzeppelin.com/contracts/4.x/erc721](https://docs.openzeppelin.com/contracts/4.x/erc721)
@@ -72,6 +73,13 @@ module.exports = {
 ```
 
 You should have to store your Mnemonic phrase & Infura API key in the .env file that you need to create within this repository!
+
+Your .env would look like this. 
+
+```shell
+API_KEY=Your api key here // without the quotes
+MNEMONIC="entire mnemonic seed phrase" // with the quotes
+```
 
 ## Compile and deploy your contract:
 
