@@ -179,6 +179,4 @@ You have now successfully created your first record in the Polybase database.
 You should be able to view this record from Polybase explorer. Here is the URL with which you can access your NFT Metadata. 
 https://testnet.polybase.xyz/v0/collections/pk%publickey%2Fapp_name%2Fcollection_name/records/record_id?format=nft
 
-Hit us up on Twitter or Discord if you have got any questions related to Polybase and we would be super happy to help! <br>
-[Twitter](https://twitter.com/polybase_xyz) <br>
-[Discord](https://discord.gg/DrXkRpCFDX)
+Hit us up on [Twitter](https://twitter.com/polybase_xyz) or [Discord](https://discord.gg/DrXkRpCFDX) if you have got any questions related to Polybase and we would be super happy to help!
